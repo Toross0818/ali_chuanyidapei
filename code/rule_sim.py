@@ -2,7 +2,7 @@
 import pandas as pd
 import time
 
-
+#余弦
 def cos(tset_name,dim_name):
     dot_product = 0.0
     normA = 0.0
@@ -30,7 +30,7 @@ def save_res(res):
     except IOError:
         print("fail to open file")
 
-
+#余弦相似度
 def sim(res_item_data,item_not_matched):
     flag = 0
     time1 = time.clock()
